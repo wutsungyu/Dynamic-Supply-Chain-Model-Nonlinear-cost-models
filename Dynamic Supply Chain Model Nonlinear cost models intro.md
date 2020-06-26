@@ -54,4 +54,62 @@ This type of cost model is often used in Price-volume relationship is graded ,th
 (e.g. Customized class clothes  
 if Within 10 pieces of clothes , 500 dollars per piece ； 10~50 pieces , 400 dollars per piece ； more than 50 pieces , 300 dollars per piece )
 
+圖片 : [kaggle -- Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+
+In this example, the above figure shows that  
+when the purchase volume (q) is between 0~q1, the unit cost is p1;   
+when the purchase volume (q) is between q1~q2, the unit cost is p2;  
+when the purchase volume (q) is In q2~q3, unit cost is p3
+
+
+The purchase cost under Linear model is p (unit cost) X q (quantity)
+
+But in this example, the purchase cost p (unit cost) has different prices under different quantities, so it has become variable, so here we use the function price(q) to represent p(unit cost)
+
+The purchase cost function of model2 is as follows:
+
+price(q) * q = (p1 u1 + p2 u2 + p3 u3) * q  
+
+u1,u2,u3 € (0,1)  
+u1 + u2 + u3 =1  
+
+Expand price(q) * q  
+
+price(q) * q = p1 u1 q+ p2 u2 q + p3 u3 q  
+
+Where u1 q, u2 q, u3 q are variables multiplied by variables , therefore it is non-linear, replace them with z1, z2, z3 respectively  
+
+price(q) X q = (p1 z1 + p2 z2 + p3 z3)  
+
+Where u1 q (z1), u2 q (z2), u3 q (z3) can be expressed by the following inequalities:  
+
+M(u1-1) ≤ q < q1 + M(1-u1)  
+q1 + M(u2-1) ≤ q < q2 + M(1-u2)  
+q2 + M(u3-1) ≤ q < q3 + M(1-u3)  
+0 ≤ zi ≤ M * ui ,(i=1~3)   
+q = z1+z2+z3  
+
+Where M =Max(q1,q2,q3)  
+
+u1,u2,u3€ (0,1)  
+u1 + u2 + u3 =1  
+
+if u1=1 (u2,u3=0) 
+then 0 ≤ q < q1   
+   q1-M ≤ q < q2+M  
+   q2-M ≤ q < q3+M  
+   q=z1  
+   price(q)*q = p1*q  
+if u2=1 (u1,u3=0) ； then q1 ≤ q < q2   
+   q=z2  
+   price(q)*q = p2*q  
+if u3=1 (u1,u2=0) ； then q2 ≤ q < q3   
+   q=z3  
+   price(q)*q = p3*q  
+
+
+
+
+
+
 
