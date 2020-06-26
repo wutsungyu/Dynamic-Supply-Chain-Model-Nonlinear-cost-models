@@ -1,4 +1,5 @@
 #   Dynamic Supply Chain Model Nonlinear cost model <br>
+
 資料來源 : [kaggle -- Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 
 
@@ -155,7 +156,7 @@ But in this example, the purchase cost p (unit cost) has different prices under 
 <br>
 <div align=center>
 <img src="https://github.com/wutsungyu/Dynamic-Supply-Chain-Model-Nonlinear-cost-models-/blob/master/PIC/nonlinear%20model%2031.png"
-width="200" height="80">
+width="400" height="60">
 </div>
 <br>
 
