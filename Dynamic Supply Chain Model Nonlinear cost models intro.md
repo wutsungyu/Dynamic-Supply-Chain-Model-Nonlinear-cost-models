@@ -7,13 +7,14 @@
 
 In the supply chain, there are often the following costs
 
-1.material costs  
-2.transportation costs from suppliers to facilities  
-3.material inventory costs  
-4.inventory costs of products in facilities  
-5.transportation costs from facilities to warehouses  
-6.inventory costs of products in warehouses  
-7.transportation costs from warehouses to customers  
+1. Material costs<br>
+2. Transportation costs from suppliers to facilities<br>
+3. Production cost paid to facilities<br>
+4. Material inventory costs<br>
+5. Inventory costs of products in facilities<br>
+6. Transportation costs from facilities to warehouses<br>
+7. Inventory costs of products in warehouses<br>
+8. Transportation costs from warehouses to customers<br>
 
 
 These costs are often assumed to be linear in the SCM model, as shown in the following figure:
@@ -160,10 +161,16 @@ width="400" height="60">
 </div>
 <br>
 
+## :black_nib: Comments <br>
 
 
 
+## :black_nib: Reference <br>
 
+<li>Handout of Operations Research Applications, ORA_03_Capacity_Scheduling_SCM_2020, Dr. Chia-Yen Lee</li>
+<li>黎漢林, 供應鏈管理與決策, 儒林</li>
+
+    
 
 
 
