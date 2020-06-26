@@ -108,6 +108,31 @@ if u3=1 (u1,u2=0) ； then q2 ≤ q < q3
    q=z3  
    price(q)*q = p3*q  
 
+* Nonlinear cost model 3
+
+This type of cost model is often used in the production cost of the factory. The unit cost is higher when the product is first produced.  
+
+With the increase in production, the unit cost of products will fall, but after a limit amount of production
+
+The factory may not be able to load, so it may need to hire manpower or buy the machine, so the unit cost has increased
+
+圖片 : [kaggle -- Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+
+The purchase cost under Linear is p (unit cost) X q (quantity)
+But in this example, the purchase cost p (unit cost) has different prices under different quantities, so it has become variable, so here we use the function price(q) to represent p(unit cost)
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
