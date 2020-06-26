@@ -163,7 +163,7 @@ width="400" height="60">
 
 ## :black_nib: Comments <br>
 
-
+We often assume that the cost is linear, but in fact most of the cost is a non-linear relationship, and so this article introduces three different nonlinear cost models to simulate the change of cost, perhaps the estimated cost is not necessarily global optimal but compared to Using the linear method to estimate the cost model is a more appropriate method
 
 ## :black_nib: Reference <br>
 
