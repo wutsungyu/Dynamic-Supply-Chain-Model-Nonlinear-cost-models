@@ -6,8 +6,8 @@
 
 In the supply chain, there are often the following costs
 
-1.material costs ， 
-2.transportation costs from suppliers to facilities，
+1.material costs \ 
+2.transportation costs from suppliers to facilities\
 3.material inventory costs，
 4.inventory costs of products in facilities，
 5.transportation costs from facilities to warehouses，
