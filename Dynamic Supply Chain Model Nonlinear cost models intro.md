@@ -56,10 +56,12 @@ if Within 10 pieces of clothes , 500 dollars per piece ； 10~50 pieces , 400 do
 
 圖片 : [kaggle -- Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
 
-In this example, the above figure shows that  
-when the purchase volume (q) is between 0~q1, the unit cost is p1;   
-when the purchase volume (q) is between q1~q2, the unit cost is p2;  
-when the purchase volume (q) is In q2~q3, unit cost is p3
+In this example, the above figure shows that 
+when the purchase volume (q) is between 0 to q1, the unit cost is p1;   
+
+when the purchase volume (q) is between q1 to q2, the unit cost is p2;  
+
+when the purchase volume (q) is In q2 to q3, unit cost is p3
 
 
 The purchase cost under Linear model is p (unit cost) * q (quantity)
@@ -95,10 +97,10 @@ u1,u2,u3€ (0,1)
 u1 + u2 + u3 =1  
 
 if u1=1 (u2,u3=0) ； then 0 ≤ q < q1   
-   <br />q1-M ≤ q < q2+M  
-   <br />q2-M ≤ q < q3+M  
-   <br />q=z1  
-   <br />price(q)*q = p1*q  
+   q1-M ≤ q < q2+M  
+   q2-M ≤ q < q3+M  
+   q=z1  
+   price(q)*q = p1*q  
 if u2=1 (u1,u3=0) ； then q1 ≤ q < q2   
    q=z2  
    price(q)*q = p2*q  
