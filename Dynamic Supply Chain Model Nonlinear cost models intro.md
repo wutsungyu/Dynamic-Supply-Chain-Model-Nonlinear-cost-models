@@ -155,7 +155,7 @@ But in this example, the purchase cost p (unit cost) has different prices under 
 <br>
 <div align=center>
 <img src="https://github.com/wutsungyu/Dynamic-Supply-Chain-Model-Nonlinear-cost-models-/blob/master/PIC/nonlinear%20model%2031.png"
-width="700" height="350">
+width="200" height="80">
 </div>
 <br>
 
