@@ -1,8 +1,5 @@
 #   Dynamic Supply Chain Model Nonlinear cost model <br>
 
-資料來源 : [kaggle -- Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
-
-
 ## :black_nib: Why need Nonlinear cost model ?(Background and Motivation) <br>
 
 In the supply chain, there are often the following costs
