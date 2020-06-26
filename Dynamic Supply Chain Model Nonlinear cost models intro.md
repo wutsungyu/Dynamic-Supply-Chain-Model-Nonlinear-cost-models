@@ -62,7 +62,7 @@ when the purchase volume (q) is between q1~q2, the unit cost is p2;
 when the purchase volume (q) is In q2~q3, unit cost is p3
 
 
-The purchase cost under Linear model is p (unit cost) X q (quantity)
+The purchase cost under Linear model is p (unit cost) * q (quantity)
 
 But in this example, the purchase cost p (unit cost) has different prices under different quantities, so it has become variable, so here we use the function price(q) to represent p(unit cost)
 
@@ -94,12 +94,11 @@ Where M =Max(q1,q2,q3)
 u1,u2,u3€ (0,1)  
 u1 + u2 + u3 =1  
 
-if u1=1 (u2,u3=0) 
-then 0 ≤ q < q1   
-   q1-M ≤ q < q2+M  
-   q2-M ≤ q < q3+M  
-   q=z1  
-   price(q)*q = p1*q  
+if u1=1 (u2,u3=0) ； then 0 ≤ q < q1   
+   <br />q1-M ≤ q < q2+M  
+   <br />q2-M ≤ q < q3+M  
+   <br />q=z1  
+   <br />price(q)*q = p1*q  
 if u2=1 (u1,u3=0) ； then q1 ≤ q < q2   
    q=z2  
    price(q)*q = p2*q  
