@@ -50,10 +50,8 @@ When the purchase quantity is q or q1 or 2*q1, the price of unit cost is as foll
 
 * Nonlinear cost model 2
 
-This type of cost model is often used in Price-volume relationship is graded ,the relationship between costs and quantities is in fix-quantity-fix-price.
-(e.g. Customized class clothes 
-if Within 10 pieces of clothes 500 dollars per piece  
-   10~50 pieces ,400 dollars per piece
-   more than 50 pieces ,300 dollars per piece )
+This type of cost model is often used in Price-volume relationship is graded ,the relationship between costs and quantities is in fix-quantity-fix-price.  
+(e.g. Customized class clothes  
+if Within 10 pieces of clothes , 500 dollars per piece ； 10~50 pieces , 400 dollars per piece ； more than 50 pieces , 300 dollars per piece )
 
 
