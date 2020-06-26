@@ -29,8 +29,31 @@ Here the purchase quantity will change from intput data to variable
 
 Different types of cost will have different cost models. Generally, the common Nonlinear cost models have the following three types:
 
+* Nonlinear cost model 1
 
-*Nonlinear cost model 1
+The original purchase cost is 𝑝1. Then, the cost drops gradually with the increase of purchasing quantities and remain constant at 𝑝2 while the quantity reaches 𝑞1.
 
-* Cost classification loss.
+圖片 : [kaggle -- Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+
+The purchase cost under the linear model is p (unit cost) X q (quantity)
+
+But in this example, the purchase cost p (unit cost) has different prices under different quantities, so it has become variable, so here req is used to represent p (unit cost)
+
+The unit cost (req) restriction formula at this time is as follows:
+
+圖片 : [kaggle -- Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+
+For example:
+When the purchase quantity is q or q1 or 2*q1, the price of unit cost is as follows
+
+圖片 : [kaggle -- Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+
+* Nonlinear cost model 2
+
+This type of cost model is often used in Price-volume relationship is graded ,the relationship between costs and quantities is in fix-quantity-fix-price.
+(e.g. Customized class clothes 
+if Within 10 pieces of clothes 500 dollars per piece  
+   10~50 pieces ,400 dollars per piece
+   more than 50 pieces ,300 dollars per piece )
+
 
