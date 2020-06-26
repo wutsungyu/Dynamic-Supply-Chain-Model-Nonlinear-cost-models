@@ -21,3 +21,16 @@ These costs are often assumed to be linear in the SCM model, as shown in the fol
 
 The horizontal axis is the order quantity, and the vertical axis is the unit cost. It can be seen from the above figure that regardless of the order quantity, the unit cost is a fixed value. Obviously, this assumption is very unreasonable in real life.
 
+In real life, we have different pricing strategies for different suppliers and different products. In addition, there will be quantity discounts. Generally, the more purchases, the greater the price discounts, to encourage customers to increase purchases, so we have to use nonlinear cost model to calculate various costs, it will be more reasonable.
+
+## :black_nib: What types of Nonlinear cost model ?(Methodology) <br>
+
+Here the purchase quantity will change from intput data to variable
+
+Different types of cost will have different cost models. Generally, the common Nonlinear cost models have the following three types:
+
+
+*Nonlinear cost model 1
+
+* Cost classification loss.
+
