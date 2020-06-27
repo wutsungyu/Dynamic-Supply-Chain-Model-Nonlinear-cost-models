@@ -15,7 +15,7 @@ But this is not in line with real life, so this article will introduce three cos
 
 |更新時間|文章|
 |---|---|
-|2020|[Dynamic Supply Chain Model Nonlinear cost models Introduction](https://github.com/wutsungyu/Cost-Sensitive/blob/master/implementation%20with%20python.md)|
+|2020|[Dynamic Supply Chain Model Nonlinear cost models Introduction](https://github.com/wutsungyu/Dynamic-Supply-Chain-Model-Nonlinear-cost-models/tree/master/Eexample)|
 
 
 
