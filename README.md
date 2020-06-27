@@ -13,7 +13,7 @@ But this is not in line with real life, so this article will introduce three cos
 
 ## § Implementation with Python
 
-|更新時間|文章|
+|更新時間|範例|
 |---|---|
 |2020|[Dynamic Supply Chain Model Nonlinear cost models Introduction](https://github.com/wutsungyu/Dynamic-Supply-Chain-Model-Nonlinear-cost-models/tree/master/Eexample)|
 
