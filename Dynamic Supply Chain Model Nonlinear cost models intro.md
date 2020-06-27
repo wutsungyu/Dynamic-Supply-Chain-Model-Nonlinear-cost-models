@@ -1,23 +1,28 @@
 #   Dynamic Supply Chain Model Nonlinear cost model <br>
-資料來源 : [kaggle -- Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
-
 
 ## :black_nib: Why need Nonlinear cost model ?(Background and Motivation) <br>
 
 In the supply chain, there are often the following costs
 
-1.material costs  
-2.transportation costs from suppliers to facilities  
-3.material inventory costs  
-4.inventory costs of products in facilities  
-5.transportation costs from facilities to warehouses  
-6.inventory costs of products in warehouses  
-7.transportation costs from warehouses to customers  
+1. Material costs<br>
+2. Transportation costs from suppliers to facilities<br>
+3. Production cost paid to facilities<br>
+4. Material inventory costs<br>
+5. Inventory costs of products in facilities<br>
+6. Transportation costs from facilities to warehouses<br>
+7. Inventory costs of products in warehouses<br>
+8. Transportation costs from warehouses to customers<br>
 
 
 These costs are often assumed to be linear in the SCM model, as shown in the following figure:
 
-圖片 : [kaggle -- Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+
+<br>
+<div align=center>
+<img src="https://github.com/wutsungyu/Dynamic-Supply-Chain-Model-Nonlinear-cost-models-/blob/master/PIC/linear%20model.png"
+width="500" height="350">
+</div>
+<br>
 
 The horizontal axis is the order quantity, and the vertical axis is the unit cost. It can be seen from the above figure that regardless of the order quantity, the unit cost is a fixed value. Obviously, this assumption is very unreasonable in real life.
 
@@ -33,7 +38,12 @@ Different types of cost will have different cost models. Generally, the common N
 
 The original purchase cost is 𝑝1. Then, the cost drops gradually with the increase of purchasing quantities and remain constant at 𝑝2 while the quantity reaches 𝑞1.
 
-圖片 : [kaggle -- Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+<br>
+<div align=center>
+<img src="https://github.com/wutsungyu/Dynamic-Supply-Chain-Model-Nonlinear-cost-models-/blob/master/PIC/nonlinear%20model%201.png"
+width="700" height="350">
+</div>
+<br>
 
 The purchase cost under the linear model is p (unit cost) X q (quantity)
 
@@ -41,12 +51,22 @@ But in this example, the purchase cost p (unit cost) has different prices under 
 
 The unit cost (req) restriction formula at this time is as follows:
 
-圖片 : [kaggle -- Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+<br>
+<div align=center>
+<img src="https://github.com/wutsungyu/Dynamic-Supply-Chain-Model-Nonlinear-cost-models-/blob/master/PIC/nonlinear%20model%2011.png"
+width="200" height="80">
+</div>
+<br>
 
 For example:
 When the purchase quantity is q or q1 or 2*q1, the price of unit cost is as follows
 
-圖片 : [kaggle -- Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+<br>
+<div align=center>
+<img src="https://github.com/wutsungyu/Dynamic-Supply-Chain-Model-Nonlinear-cost-models-/blob/master/PIC/nonlinear%20model%2012.png"
+width="400" height="350">
+</div>
+<br>
 
 * Nonlinear cost model 2
 
@@ -54,7 +74,12 @@ This type of cost model is often used in Price-volume relationship is graded ,th
 (e.g. Customized class clothes  
 if Within 10 pieces of clothes , 500 dollars per piece ； 10~50 pieces , 400 dollars per piece ； more than 50 pieces , 300 dollars per piece )
 
-圖片 : [kaggle -- Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+<br>
+<div align=center>
+<img src="https://github.com/wutsungyu/Dynamic-Supply-Chain-Model-Nonlinear-cost-models-/blob/master/PIC/nonlinear%20model%202.png"
+width="700" height="350">
+</div>
+<br>
 
 In this example, the above figure shows that 
 when the purchase volume (q) is between 0 to q1, the unit cost is p1;   
@@ -116,15 +141,33 @@ With the increase in production, the unit cost of products will fall, but after 
 
 The factory may not be able to load, so it may need to hire manpower or buy the machine, so the unit cost has increased
 
-圖片 : [kaggle -- Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+<br>
+<div align=center>
+<img src="https://github.com/wutsungyu/Dynamic-Supply-Chain-Model-Nonlinear-cost-models-/blob/master/PIC/nonlinear%20model%203.png"
+width="700" height="350">
+</div>
+<br>
 
 The purchase cost under Linear is p (unit cost) X q (quantity)
 But in this example, the purchase cost p (unit cost) has different prices under different quantities, so it has become variable, so here we use the function price(q) to represent p(unit cost)
 
+<br>
+<div align=center>
+<img src="https://github.com/wutsungyu/Dynamic-Supply-Chain-Model-Nonlinear-cost-models-/blob/master/PIC/nonlinear%20model%2031.png"
+width="400" height="60">
+</div>
+<br>
 
+## :black_nib: Comments <br>
 
+We often assume that the cost is linear, but in fact most of the cost is a non-linear relationship, and so this article introduces three different nonlinear cost models to simulate the change of cost, perhaps the estimated cost is not necessarily global optimal but compared to Using the linear method to estimate the cost model is a more appropriate method
 
+## :black_nib: Reference <br>
 
+<li>Handout of Operations Research Applications, ORA_03_Capacity_Scheduling_SCM_2020, Dr. Chia-Yen Lee</li>
+<li>黎漢林, 供應鏈管理與決策, 儒林</li>
+
+    
 
 
 
